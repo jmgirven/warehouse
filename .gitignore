@@ -1,0 +1,26 @@
+# Standard ignores
+*.pyc
+*.pyo
+*.DS_Store
+*.swp
+*.idea
+*.project
+*.pydevproject
+*.kpf
+venv
+
+# # Don't store secret keys in version control
+secret_keys.py
+
+app.yaml
+
+# don't include third-party dependencies.
+/lib/
+!lib/README.md
+.DS_Store
+
+#grunt
+node_modules
+js/jsm
+css/*.min.css
+*~
