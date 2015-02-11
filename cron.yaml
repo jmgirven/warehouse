@@ -1,0 +1,4 @@
+cron:
+- description: parse website for new data
+  url: /go
+  schedule: every 6 hours
