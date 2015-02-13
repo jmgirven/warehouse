@@ -21,8 +21,11 @@ from application import views
 # Home page
 app.add_url_rule('/', 'show_main', view_func=views.show_main)
 
-# Home page
+# Parse pages
 app.add_url_rule('/go', 'parse_sites', view_func=parse.parse_sites)
+
+# Search
+app.add_url_rule('/search/<searchStr>', 'search', view_func=views.search)
 
 
 ### Error handlers

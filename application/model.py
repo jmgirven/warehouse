@@ -23,5 +23,6 @@ class Base(ndb.Model, modelx.BaseX):
 class Item(Base, modelx.ItemX):
     title = ndb.StringProperty(required=True)
     price = ndb.FloatProperty(required=True)
+    catagory = ndb.StringProperty(required=True)
 
 
